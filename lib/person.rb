@@ -25,8 +25,7 @@ class Person
 		end
 
 		def hygiene=(num)
-			binding.pry
-			if num > 100
+			if num > 10
 				@hygiene = 10
 			elsif num < 0
 				@hygiene = 0
